@@ -2,11 +2,12 @@
 
 namespace API.Controllers
 {
-    [Route("/")]
+    [Route("api/[controller]")]
     [ApiController]
     public class HomeController : ControllerBase
     {
-        public IActionResult HomePage()
+        [HttpGet]
+        public IActionResult Index()
         {
             return Ok("Hello world");
         }

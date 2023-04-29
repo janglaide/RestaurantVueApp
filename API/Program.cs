@@ -25,6 +25,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors(b => b.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 }
 
 app.UseHttpsRedirection();
@@ -33,5 +34,9 @@ app.MapControllers();
 
 app.UseRouting();
 app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapDefaultControllerRoute();
+});
 
 app.Run();
