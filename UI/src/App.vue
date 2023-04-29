@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DishList></DishList>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DishList from './components/Dish/dishList'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DishList,
   }
 }
 </script>
