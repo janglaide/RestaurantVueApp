@@ -42,4 +42,8 @@
     height: auto;
     border-radius: 5%;
   }
+
+  .card a {
+    font-weight: 1000;
+  }
 </style>
