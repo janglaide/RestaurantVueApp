@@ -1,0 +1,31 @@
+#app {
+  font-family: "Century Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 1000;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
